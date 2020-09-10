@@ -1,8 +1,15 @@
+  
 <html>
-<frameset rows="*"> 
-    <frame name="title"  scrolling=no src="sub1.html" >
+
+<frameset rows="15%,*">  <!-- the no. of items in 'rows' limit the no. of frames shown -->
+    <frame name="title"  scrolling=no src="head.html" >
+    <frameset cols="30%,*">
+      <frame name="left"  scrolling=no src="lhs.html" >
+      <frame name="right"  scrolling=no src="rhs.html" >
+      
+    </frameset>
     <noframes>        
         <body>No frames</body>
-    </noframes
+    </noframes>
 </frameset>
 </html>
